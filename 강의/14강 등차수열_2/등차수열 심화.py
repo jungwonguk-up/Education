@@ -20,3 +20,4 @@ while n <= inputN: # n이 N개가 되기 전까지 반복
     n +=1
 
 print('{}번째 항까지의 합: {}' .format(inputN, sumN))
+
