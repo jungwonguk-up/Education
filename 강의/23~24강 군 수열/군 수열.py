@@ -2,7 +2,7 @@
 
 inputn = int(input('n항 입력: '))
 
-flag = True # flag 얘는 그냥 변수인가?
+flag = True # flag 얘는 그냥 변수인가? >> while 문을 통제하기 위해 만든 변수
 n = 1; nCnt = 1; searchn = 0 # 변수 = 다음에 ; 넣고 안넣고 차이는 뭐지? / nCnt 이건 항의 숫자를 담는 n
 while flag:
 
@@ -18,7 +18,7 @@ while flag:
             searchn = i
             flag = False # while 문 빠져나오는것
             break #for문 빠져나오는것
-    print()  # 뭘 프린트하는지 안넣어도 되는건가? / # 개행?
+    print()  # 뭘 프린트하는지 안넣어도 되는건가? >>> # 개행
     n += 1
 
 print('{}항: {}'.format(inputn, searchn))

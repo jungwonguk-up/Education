@@ -8,4 +8,4 @@ for n in range(2, N+1):
     
 
     else:
-        n+=3
+        n+=1

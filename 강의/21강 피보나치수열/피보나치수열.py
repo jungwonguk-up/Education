@@ -29,3 +29,6 @@ print('{}번째 항의 값: {}'.format(inputn, valuen))
 print('{}번째 항까지의 합: {}'.format(inputn, sumn))
 
 # 이건 수열이 무조건 1부터만 시작한다는 한계가 있음. 내가 원하는 수부터 시작하게 하려면?
+
+
+

@@ -1,3 +1,4 @@
+#n번째 항까지의 합
 #an = a1 + (n-1)d
 #sn = n ( a1 + an) / 2
 inputnumber = int(input('첫번째 항 : '))

@@ -15,7 +15,7 @@ while n <= inputn:
         print('{}번째 항까지의 합: {}'.format(n, sumn))
         n +=1
         continue # continue 를 하면 바로 if로 올라감
-
+                 # 이후에 n ==1 이 아니게 되므로 및에 줄로 내려가게 됨
     valuen *= inputr
     sumn += valuen
     print('{}번째 항까지의 합: {}'.format(n, sumn))
